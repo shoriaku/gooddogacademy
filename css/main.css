@@ -99,6 +99,14 @@ font-size: 80px;
  color: #E28F8D;
 }
 
+h4 {
+   font-family: 'OpenDyslexic';
+   font-size: 50px;
+   line-height: 1;
+   color: #000000;
+     text-shadow: 4px 2px #E28F8D;
+}
+
 .tagline{
   text-align: right;
   padding-top: 10px;
@@ -185,6 +193,11 @@ padding-top: 45px;
   font-family: 'KG A Little Swag';
   font-size: 80px;
    color: #E28F8D;
+  }
+
+  h4 {
+     font-family: 'OpenDyslexic';
+
   }
 
   .tagline{
@@ -275,6 +288,12 @@ padding-top: 45px;
    color: #E28F8D;
   }
 
+  h4 {
+     font-family: 'OpenDyslexic';
+
+  }
+
+
   .tagline{
     text-align: right;
     padding-top: 10px;
@@ -332,9 +351,6 @@ padding-top: 45px;
        color: #fff;
      }
 
-h4 {
-
-}
 
 h5 {
 
