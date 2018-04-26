@@ -1,0 +1,407 @@
+
+/***font face***/
+
+
+@font-face {
+    font-family: 'GoodDog Cool';
+    src: url('../fonts/GoodDogCool.woff2') format('woff2'),
+        url('../fonts/GoodDogCool.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: url('../fonts/OpenDyslexic-Italic.woff2') format('woff2'),
+        url('../fonts/OpenDyslexic-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Snubnose DEMO';
+    src: url('../fonts/SnubnoseDEMO-Regular.woff2') format('woff2'),
+        url('../fonts/SnubnoseDEMO-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'KG A Little Swag';
+    src: url('../fonts/KGALittleSwag.woff2') format('woff2'),
+        url('../fonts/KGALittleSwag.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*** sectioning elements ***/
+
+body{
+ text-align: center;
+}
+
+header {
+ background-color: #E28F8D;
+
+}
+
+main {
+
+}
+
+footer {
+ background-color: #E5D9CA ;
+   font-family: 'OpenDyslexic';
+}
+
+nav {
+
+}
+
+section {
+
+}
+
+p{
+
+font-family: 'Merriweather', serif;
+
+}
+
+aside {
+
+}
+
+/**** content styles ***/
+@media (min-width: 960px) {
+h1 {
+  font-family: 'GoodDog Cool';
+  text-align: left;
+  font-size: 145px;
+  padding-top: 45px;
+  text-shadow: 2px 2px #FFFFFF;
+  color: #000000;
+  line-height: .7;
+
+}
+
+h2 {
+  font-family: 'Snubnose DEMO';
+  font-size: 70px;
+  line-height: 1;
+  color: #000000;
+}
+
+h3{
+font-family: 'KG A Little Swag';
+font-size: 80px;
+ color: #E28F8D;
+}
+
+.tagline{
+  text-align: right;
+  padding-top: 10px;
+  font-family: 'Snubnose DEMO';
+  font-size: 40px;
+  padding-right: 150px;
+
+
+
+}
+
+.log{
+float: left;
+max-width: 40%;
+padding-top: 45px;
+}
+
+.boi{
+
+  border-radius: 50%;
+
+}
+
+
+.paw{
+  text-shadow: 2px 2px #000000;
+  font-size: 40px;
+  color: #FFFFFF;
+
+
+}
+
+.navbar {
+     background-color: #776E71;
+     font-family: 'OpenDyslexic';
+     max-width: 100%;
+   }
+
+   .navbar-brand {
+     color: #fff;
+
+   }
+
+   .navbar-brand a:link, {
+
+   }
+
+   .navbar-brand a:hover,
+   .navbar-brand a:active {
+
+   }
+
+   .navbar-menu a:link,
+   .navbar-menu a:visited {
+     color: #fff;
+   }
+
+
+
+
+
+}
+
+@media (max-width: 959px) {
+  h1 {
+    font-family: 'GoodDog Cool';
+    text-align: left;
+    font-size: 145px;
+    padding-top: 45px;
+    text-shadow: 2px 2px #FFFFFF;
+    color: #000000;
+    line-height: .7;
+
+  }
+
+  h2 {
+    font-family: 'Snubnose DEMO';
+    font-size: 70px;
+    line-height: 1;
+    color: #000000;
+  }
+
+  h3{
+  font-family: 'KG A Little Swag';
+  font-size: 80px;
+   color: #E28F8D;
+  }
+
+  .tagline{
+    text-align: right;
+    padding-top: 10px;
+    font-family: 'Snubnose DEMO';
+    font-size: 40px;
+    padding-right: 150px;
+
+
+
+  }
+
+  .log{
+  float: left;
+  max-width: 40%;
+  padding-top: 45px;
+  }
+
+  .boi{
+
+    border-radius: 50%;
+
+  }
+
+
+  .paw{
+    text-shadow: 2px 2px #000000;
+    font-size: 40px;
+    color: #FFFFFF;
+
+
+  }
+
+  .navbar {
+       background-color: #776E71;
+       font-family: 'OpenDyslexic';
+       max-width: 100%;
+     }
+
+     .navbar-brand {
+       color: #fff;
+
+     }
+
+     .navbar-brand a:link, {
+
+     }
+
+     .navbar-brand a:hover,
+     .navbar-brand a:active {
+
+     }
+
+     .navbar-menu a:link,
+     .navbar-menu a:visited {
+       color: #fff;
+     }
+
+
+
+
+
+  }
+@media (max-width: 719px) {
+
+  h1 {
+    font-family: 'GoodDog Cool';
+    text-align: left;
+    font-size: 145px;
+    padding-top: 45px;
+    text-shadow: 2px 2px #FFFFFF;
+    color: #000000;
+    line-height: .7;
+
+  }
+
+  h2 {
+    font-family: 'Snubnose DEMO';
+    font-size: 70px;
+    line-height: 1;
+    color: #000000;
+  }
+
+  h3{
+  font-family: 'KG A Little Swag';
+  font-size: 80px;
+   color: #E28F8D;
+  }
+
+  .tagline{
+    text-align: right;
+    padding-top: 10px;
+    font-family: 'Snubnose DEMO';
+    font-size: 40px;
+    padding-right: 150px;
+
+
+
+  }
+
+  .log{
+  float: left;
+  max-width: 40%;
+  padding-top: 45px;
+  }
+
+  .boi{
+
+    border-radius: 50%;
+
+  }
+
+
+  .paw{
+    text-shadow: 2px 2px #000000;
+    font-size: 40px;
+    color: #FFFFFF;
+
+
+  }
+
+  .navbar {
+       background-color: #776E71;
+       font-family: 'OpenDyslexic';
+       max-width: 100%;
+     }
+
+     .navbar-brand {
+       color: #fff;
+
+     }
+
+     .navbar-brand a:link, {
+
+     }
+
+     .navbar-brand a:hover,
+     .navbar-brand a:active {
+
+     }
+
+     .navbar-menu a:link,
+     .navbar-menu a:visited {
+       color: #fff;
+     }
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p {
+
+}
+
+blockquote {
+
+}
+
+ol {
+
+}
+
+ul {
+
+}
+
+li {
+
+}
+
+table {
+
+}
+
+tr {
+
+}
+
+th {
+
+}
+
+td {
+
+}
+
+
+/*** image styles ***/
+
+img  {
+
+}
+
+/*** link styles ***/
+
+
+a:link {
+
+}
+
+a:visited {
+
+}
+
+a:hover {
+
+}
+
+a:active {
+
+}
