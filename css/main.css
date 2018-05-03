@@ -164,9 +164,21 @@ padding-top: 45px;
      color: #fff;
    }
 
+   .adj{
+     font-size: 40px;
 
+   }
 
+   .sta{
+       font-family: 'KG A Little Swag';
+       font-size: 80px;
+        color: #E28F8D;
 
+     }
+ a:hover{
+   background-color: #776E71;
+
+ }
 
 }
 
@@ -257,10 +269,21 @@ padding-top: 45px;
        color: #fff;
      }
 
+     .adj{
+       font-size: 60px;
 
+     }
 
+     .sta a:link {
+         font-family: 'KG A Little Swag';
+         font-size: 80px;
+          color: #E28F8D;
 
+       }
 
+     .sta a:hover {
+       color: #776E71;
+       }
   }
 @media (max-width: 719px) {
 
@@ -350,7 +373,20 @@ padding-top: 45px;
      .navbar-menu a:visited {
        color: #fff;
      }
+    .adj{
+      font-size: 60px;
 
+    }
+    .sta{
+        font-family: 'KG A Little Swag';
+        font-size: 80px;
+         color: #E28F8D;
+
+      }
+  a:hover{
+    background-color: #776E71;
+
+  }
 
 h5 {
 
@@ -406,17 +442,12 @@ img  {
 /*** link styles ***/
 
 
-a:link {
-
-}
 
 a:visited {
 
 }
 
-a:hover {
 
-}
 
 a:active {
 
